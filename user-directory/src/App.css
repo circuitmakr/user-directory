@@ -1,0 +1,91 @@
+*,::before,::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: rgb(44, 43, 43);
+}
+.header{
+  background-color: rgb(103, 176, 236);
+  height: 6rem;
+  width: 100 vw;
+}
+.header h2{
+  padding-top: 1.5rem;
+  margin-left: 9rem;
+} 
+.datacard{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5rem;
+  height: 23rem;
+  width: 60rem;
+  background-color: white;
+  line-height: 1.7rem;
+}
+.indexCount{
+  margin-left:90%;
+  padding-top: 1rem;
+}
+.navigation{
+  display: flex;
+  height: 4rem;
+  width: 60rem;
+  margin-left:auto;
+  margin-right:auto;
+  align-items: center;
+}
+.btnPrevious{
+  float: left;
+  background-color: transparent;
+  border:transparent;
+  color: white;
+}
+.heading{
+  float:left;
+  margin-left: 2em;
+}
+ol{
+  margin-left: 4rem;;
+}
+.userName{
+  margin-left:2rem;
+  width:20rem;
+  height: 2rem;
+  text-decoration: underline  rgb(103, 176, 236);
+ 
+}
+.btnEdit{
+  width: 5em;
+  height: 2.5rem;
+  border-radius: 20%;
+  color: white;
+  background-color: rgb(103, 176, 236);
+  border: none;
+  margin-left: auto
+}
+.btnDelete{
+  width: 8em;
+  height: 2.5rem;
+  border-radius: 20%;
+  color: white;
+  background-color: rgb(103, 176, 236);
+  border: none;
+  margin-left: 1rem;
+}
+.btnNew{
+  width: 5em;
+  height: 2.5rem;
+  border-radius: 20%;
+  color: white;
+  background-color: rgb(103, 176, 236);
+  border: none;
+  margin-left: 1rem;
+}
+.btnNext{
+  margin-left:auto;
+  background-color: transparent;
+  border:transparent;
+  color: white;
+}
